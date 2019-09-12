@@ -1,5 +1,5 @@
 # PIMPMYPIC
-Website design for PIMPMYPIC app.
+Website design of PIMPMYPIC app for Forkaia.
 
 Current work:
 An initial website is designed with app logo and basic functions enabled.
