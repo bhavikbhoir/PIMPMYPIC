@@ -68,6 +68,39 @@ line-height: 35px;
 
 }
 
+#Login
+{
+text-align:right;
+position:relative;
+margin-top:30px;
+font-size:16px;
+margin-left:-10px;
+max-width:970px;
+height: 35px;
+line-height: 35px;
+float:right;
+color:#5b6fc8;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;  
+}
+
+
+#SignUp{
+text-align:right;
+position:relative;
+margin-top:30px;
+font-size:16px;
+margin-left:-10px;
+margin-right: 10px;
+max-width:970px;
+height: 35px;
+line-height: 35px;
+float:right;
+color:#CEEAEE;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif; 
+
+}
+
+
 #mainPicture
 {
 width:970px;
@@ -350,4 +383,12 @@ p {text-align: left;}
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  margin-right: 10px;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #fe4164;
+  color: white;
+
 }
