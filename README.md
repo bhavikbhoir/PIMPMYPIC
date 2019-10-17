@@ -22,4 +22,4 @@ Functions added:
 
 Functions under development:
 1. Make the page responsive on all display sizes using Bootstrap.
-2. Better UI.
+
