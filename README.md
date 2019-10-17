@@ -19,3 +19,7 @@ Functions added:
 1. Login and Signup options on the homepage.
 2. Sepearate Login and Signup pages.
 3. Buttons with links to social media pages. (Currently takes you to the official social media pages)
+
+Functions under development:
+1. Make the page responsive on all display sizes using Bootstrap.
+2. Better UI.
