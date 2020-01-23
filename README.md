@@ -1,5 +1,11 @@
 Website design of PIMPMYPIC app for Forkaia.
 
+## Updated work (as of 01/23/2020)
+
+### Functions added:
+1. Background image added to the home page.
+2. Different login and sign up pages added.
+
 ## Updated work (as of 11/08/2019)
 
 ### Functions added:
