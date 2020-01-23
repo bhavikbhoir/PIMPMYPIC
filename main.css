@@ -130,25 +130,8 @@ body{
   background-size: cover;
 }
 
-/*COntent
-.contentsection {
-  background: #E0EAFC;  
-  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  
-  background: linear-gradient(to right, #CFDEF3, #E0EAFC); 
-}*/
-/*
-.contentsection{
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-*/
-
 .contentsection .container{
-  /*background-color: #F5F5F5;*/
-  background-color: transparent;
+background-color: transparent;
 padding-top: 25px;
 padding-bottom:25px;
 width:100%;
@@ -250,7 +233,7 @@ color: white;
 font-family: cursive;
 }
 
-/* --------------------------Bottom */
+/* Bottom */
 .bottom-content{
   width: 100%;
   margin-left: 0px;
@@ -302,10 +285,6 @@ font-family: cursive;
 
 footer{
   overflow: hidden;
-}
-
-footer {
-  /*background: url(atmosphere-background-bright-clouds-19670.jpg) no-repeat center center fixed;*/
 }
 
 footer .row{
