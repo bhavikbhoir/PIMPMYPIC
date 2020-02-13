@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous">
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<script>
+		// Hide all elements with class="containerTab", except for the one that matches the clickable grid column
+		function openTab(tabName) {
+		  var i, x;
+		  x = document.getElementsByClassName("containerTab");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";
+		  }
+		  document.getElementById(tabName).style.display = "block";
+		}
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="main.css" />
+
+	<title>PIMPMYPIC - About</title>
+	<style>
+		body{
+		  background: url(background.png) no-repeat center center fixed;
+		  background-size: cover;
+		}
+		.row .title{
+			width: 100%;
+			background-color: #5b6fc8;
+			color: white;
+			padding: 5px;
+		}
+		.row {
+			margin: 20px;
+			text-align: justify;
+		}
+		.col-lg-4, .col-lg-8, .col-sm-12{
+			padding: 10px;
+		}
+		/* The grid: Three equal columns that floats next to each other */
+		.column {
+		  float: left;
+		  width: 48%;
+		  padding: 50px;
+		  text-align: center;
+		  font-size: 25px;
+		  cursor: pointer;
+		  color: #5b6fc8;
+		  border: 1px solid #5b6fc8;
+		  border-radius: 5px;
+		  margin: 5px;
+		}
+
+		.containerTab {
+		  padding: 20px;
+		  color: white;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+		/* Closable button inside the image */
+		.closebtn {
+		  float: right;
+		  color: white;
+		  font-size: 35px;
+		  cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation bar -->
+	<nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+        <a class="navbar-brand" href="#"><img id="logo" src="logo2.jpg" alt="Logo" height="" width=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="features.html"><i class="fa fa-list"></i> Features </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fa fa-font"></i> About </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> </a>
+            		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              		<a class="dropdown-item" href="login.html"> Login </a>
+              		<a class="dropdown-item" href="signup.html"> Sign Up </a>
+            		</div>
+                </li>
+            </ul> 
+        </div>
+   		</div>
+	</nav>
+
+<div class="container">
+	<!-- The grid: three columns -->
+	<div class="row">
+	  <div class="column" onclick="openTab('b1');" style="background:white;">Want to how it all started?</div>
+	  <div class="column" onclick="openTab('b2');" style="background:white;">What do we do?</div>
+	  <div class="column" onclick="openTab('b3');" style="background:white;">What was the idea behind this idea?</div>
+	  <div class="column" onclick="openTab('b4');" style="background:white;">How did all come into place?</div>
+	</div>
+
+	<!-- The expanding grid (hidden by default) -->
+	<div id="b1" class="containerTab" style="display:none;background:#5b6fc8">
+	  <!-- If you want the ability to close the container, add a close button -->
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+	  <h2>The History</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<div id="b2" class="containerTab" style="display:none;background:#5b6fc8">
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+	  <h2>The Work</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<div id="b3" class="containerTab" style="display:none;background:#5b6fc8">
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+	  <h2>The Idea</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<div id="b4" class="containerTab" style="display:none;background:#5b6fc8">
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+	  <h2>The Plan</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+<!-- Footer section -->
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row flex-column flex-sm-row justify-content-between">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-3">
+    		<h4>Follow Us</h4>
+            <ul class="social-network social-circle">
+             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+             <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+             <li><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+            </ul>				
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6 col-3">
+			<h4>Get the App</h4>
+			<ul class="get-the-app">
+
+  			<li><a class="google" href="https://play.google.com/store?hl=en_US"><img src="https://img.icons8.com/color/32/000000/google-play.png"></a></li>
+  			
+  			<li><a class="apple" href="https://www.apple.com/ios/app-store/"><img src="https://img.icons8.com/ios-filled/32/000000/apple-app-store.png"></a></li>
+  			
+  			<li><a class="windows" href="https://www.microsoft.com/en-us/store/apps/windows"><img src="https://img.icons8.com/color/32/000000/clapperboard--v2.png"></a></li>
+  			</ul>
+        </div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-12 copy">
+			<p class="text-center"><strong>&copy; PIMPMYPIC</strong></p>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
